@@ -115,27 +115,23 @@ void configuracionInicial() {
 // **** Funcion que leen y retornan los valores actuales de los sensores
 // A menos que se mamneje por interrupciones
 
-// Luminosidad
-uint8 getLuminosdad() {
-    // se lee y procesa la luminosidad para que sea entero
-
-    return 1;
-}
-
-double getLuminosidad() {
-    // se lee y se procesa solo para que sea decimal ? 
+// Luminosidad: 
+float getLuminosidad() {
+    // Para implementar
     return 1.1;
 }
 
-// Distancia
-uint8 getDistancia() {
-    // se lee y procesa la distancia para que sea entero
+// se lee y procesa la luminosidad para que sea entero
+uint8 getLuminosidad() {
 
     return 1;
 }
 
-double getDistancia() {
-    // se lee y se procesa solo para que sea decimal ? 
+// Distancia
+// se lee el dato procesado del Ultrasonido
+
+float getDistancia() {
+    // Para implementar
     return 1.1;
 }
 
@@ -152,7 +148,7 @@ int main(void)
 
     configuracionInicial();
 
-    uint8 distancia, luminosidad;
+    float distancia, luminosidad;
 
     menu();
     for (;;)
@@ -168,7 +164,7 @@ int main(void)
 
             // ** Lectura de valores de Sensores **
             distancia = getDistancia();
-            luminosidad = getLuminosdad();
+            luminosidad = getLuminosidad();
 
             if (distancia < 2) {
                 Activar_Engine1();
