@@ -121,13 +121,8 @@ float getLuminosidad() {
     return 1.1;
 }
 
-// se lee y procesa la luminosidad para que sea entero
-uint8 getLuminosidad() {
+// DISTANCIA
 
-    return 1;
-}
-
-// Distancia
 // se lee el dato procesado del Ultrasonido
 
 float getDistancia() {
