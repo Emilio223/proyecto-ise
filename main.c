@@ -95,14 +95,64 @@ void menu()
     UART_PutString(cadena_uart);
 }
 
-int main(void)
-{
-    CyGlobalIntEnable; // Activar interrupciones globales
-\
+void configuracionInicial() {
+    // Inicializar 
+
+    // Activar interrupciones globales
+    CyGlobalIntEnable; 
+
+    // Activar interrupcion del UART
     IRQ_UART_StartEx(IRQ_UART);
 
+    // Iniciar el componente UART
     UART_Start();
-    CyGlobalIntEnable;
+
+    // Por defecto el MOTOR 2 esta encencido
+    MOTOR2_Write(1);
+}
+
+
+// **** Funcion que leen y retornan los valores actuales de los sensores
+// A menos que se mamneje por interrupciones
+
+// Luminosidad
+uint8 getLuminosdad() {
+    // se lee y procesa la luminosidad para que sea entero
+
+    return 1;
+}
+
+double getLuminosidad() {
+    // se lee y se procesa solo para que sea decimal ? 
+    return 1.1;
+}
+
+// Distancia
+uint8 getDistancia() {
+    // se lee y procesa la distancia para que sea entero
+
+    return 1;
+}
+
+double getDistancia() {
+    // se lee y se procesa solo para que sea decimal ? 
+    return 1.1;
+}
+
+
+
+// Funcion de ayuda que evita activar el motor 1 cuando ya esta activado
+void Activar_Engine1() {
+    if (MOTOR1_Read() != 1)
+        MOTOR1_Write(1);
+}
+
+int main(void)
+{
+
+    configuracionInicial();
+
+    uint8 distancia, luminosidad;
 
     menu();
     for (;;)
@@ -115,6 +165,22 @@ int main(void)
         else if (MODO == '2')
         {
             // MODO NORMAL
+
+            // ** Lectura de valores de Sensores **
+            distancia = getDistancia();
+            luminosidad = getLuminosdad();
+
+            if (distancia < 2) {
+                Activar_Engine1();
+            } 
+            else {
+                if (luminosidad > 100 && distancia < 10)
+                    BUZZER_Write(1); // Se activa el buzzer
+            }
+
+            if (luminosidad < 100)
+                MOTOR2_Write(0);
+
         }
         else if (MODO == '3')
         {
