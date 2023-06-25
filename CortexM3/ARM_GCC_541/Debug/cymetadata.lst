@@ -1,0 +1,1563 @@
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 1020
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 4F       		.byte	79
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 03       		.byte	3
+  34 0005 52       		.byte	82
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 03       		.byte	3
+  38 0009 64       		.byte	100
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 47       		.byte	71
+  42 000d 00       		.byte	0
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 30       		.byte	48
+  46 0011 01       		.byte	1
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 57       		.byte	87
+  50 0015 02       		.byte	2
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 47       		.byte	71
+  54 0019 03       		.byte	3
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 48       		.byte	72
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 2
+
+
+  58 001d 04       		.byte	4
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 46       		.byte	70
+  62 0021 05       		.byte	5
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 01       		.byte	1
+  66 0025 17       		.byte	23
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 04       		.byte	4
+  70 0029 18       		.byte	24
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 02       		.byte	2
+  74 002d 19       		.byte	25
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 07       		.byte	7
+  78 0031 40       		.byte	64
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 08       		.byte	8
+  82 0035 41       		.byte	65
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 02       		.byte	2
+  86 0039 42       		.byte	66
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 04       		.byte	4
+  90 003d 48       		.byte	72
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 03       		.byte	3
+  94 0041 50       		.byte	80
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 01       		.byte	1
+  98 0045 51       		.byte	81
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 01       		.byte	1
+ 102 0049 20       		.byte	32
+ 103 004a 0A       		.byte	10
+ 104 004b 36       		.byte	54
+ 105 004c 04       		.byte	4
+ 106 004d 01       		.byte	1
+ 107 004e 20       		.byte	32
+ 108 004f 40       		.byte	64
+ 109 0050 21       		.byte	33
+ 110 0051 40       		.byte	64
+ 111 0052 80       		.byte	-128
+ 112 0053 0F       		.byte	15
+ 113 0054 81       		.byte	-127
+ 114 0055 38       		.byte	56
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 3
+
+
+ 115 0056 85       		.byte	-123
+ 116 0057 72       		.byte	114
+ 117 0058 04       		.byte	4
+ 118 0059 02       		.byte	2
+ 119 005a 05       		.byte	5
+ 120 005b 50       		.byte	80
+ 121 005c 07       		.byte	7
+ 122 005d 0C       		.byte	12
+ 123 005e 09       		.byte	9
+ 124 005f 80       		.byte	-128
+ 125 0060 0D       		.byte	13
+ 126 0061 1C       		.byte	28
+ 127 0062 0F       		.byte	15
+ 128 0063 42       		.byte	66
+ 129 0064 12       		.byte	18
+ 130 0065 02       		.byte	2
+ 131 0066 13       		.byte	19
+ 132 0067 03       		.byte	3
+ 133 0068 15       		.byte	21
+ 134 0069 4C       		.byte	76
+ 135 006a 16       		.byte	22
+ 136 006b 02       		.byte	2
+ 137 006c 17       		.byte	23
+ 138 006d 11       		.byte	17
+ 139 006e 19       		.byte	25
+ 140 006f 10       		.byte	16
+ 141 0070 1D       		.byte	29
+ 142 0071 09       		.byte	9
+ 143 0072 1F       		.byte	31
+ 144 0073 10       		.byte	16
+ 145 0074 26       		.byte	38
+ 146 0075 02       		.byte	2
+ 147 0076 28       		.byte	40
+ 148 0077 02       		.byte	2
+ 149 0078 29       		.byte	41
+ 150 0079 20       		.byte	32
+ 151 007a 2C       		.byte	44
+ 152 007b 01       		.byte	1
+ 153 007c 2D       		.byte	45
+ 154 007d 14       		.byte	20
+ 155 007e 30       		.byte	48
+ 156 007f 01       		.byte	1
+ 157 0080 31       		.byte	49
+ 158 0081 1F       		.byte	31
+ 159 0082 33       		.byte	51
+ 160 0083 20       		.byte	32
+ 161 0084 36       		.byte	54
+ 162 0085 02       		.byte	2
+ 163 0086 37       		.byte	55
+ 164 0087 C0       		.byte	-64
+ 165 0088 39       		.byte	57
+ 166 0089 80       		.byte	-128
+ 167 008a 3E       		.byte	62
+ 168 008b 41       		.byte	65
+ 169 008c 3F       		.byte	63
+ 170 008d 04       		.byte	4
+ 171 008e 40       		.byte	64
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 4
+
+
+ 172 008f 23       		.byte	35
+ 173 0090 41       		.byte	65
+ 174 0091 06       		.byte	6
+ 175 0092 45       		.byte	69
+ 176 0093 0C       		.byte	12
+ 177 0094 46       		.byte	70
+ 178 0095 0B       		.byte	11
+ 179 0096 47       		.byte	71
+ 180 0097 0E       		.byte	14
+ 181 0098 48       		.byte	72
+ 182 0099 15       		.byte	21
+ 183 009a 49       		.byte	73
+ 184 009b FF       		.byte	-1
+ 185 009c 4A       		.byte	74
+ 186 009d FF       		.byte	-1
+ 187 009e 4B       		.byte	75
+ 188 009f FF       		.byte	-1
+ 189 00a0 4E       		.byte	78
+ 190 00a1 F0       		.byte	-16
+ 191 00a2 4F       		.byte	79
+ 192 00a3 44       		.byte	68
+ 193 00a4 50       		.byte	80
+ 194 00a5 0C       		.byte	12
+ 195 00a6 54       		.byte	84
+ 196 00a7 01       		.byte	1
+ 197 00a8 58       		.byte	88
+ 198 00a9 04       		.byte	4
+ 199 00aa 59       		.byte	89
+ 200 00ab 04       		.byte	4
+ 201 00ac 5A       		.byte	90
+ 202 00ad 04       		.byte	4
+ 203 00ae 5B       		.byte	91
+ 204 00af 04       		.byte	4
+ 205 00b0 5F       		.byte	95
+ 206 00b1 01       		.byte	1
+ 207 00b2 66       		.byte	102
+ 208 00b3 C0       		.byte	-64
+ 209 00b4 6A       		.byte	106
+ 210 00b5 40       		.byte	64
+ 211 00b6 6B       		.byte	107
+ 212 00b7 02       		.byte	2
+ 213 00b8 84       		.byte	-124
+ 214 00b9 0E       		.byte	14
+ 215 00ba 88       		.byte	-120
+ 216 00bb 0E       		.byte	14
+ 217 00bc 97       		.byte	-105
+ 218 00bd 05       		.byte	5
+ 219 00be 99       		.byte	-103
+ 220 00bf 04       		.byte	4
+ 221 00c0 9C       		.byte	-100
+ 222 00c1 04       		.byte	4
+ 223 00c2 9E       		.byte	-98
+ 224 00c3 03       		.byte	3
+ 225 00c4 A8       		.byte	-88
+ 226 00c5 08       		.byte	8
+ 227 00c6 AA       		.byte	-86
+ 228 00c7 02       		.byte	2
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 5
+
+
+ 229 00c8 AB       		.byte	-85
+ 230 00c9 02       		.byte	2
+ 231 00ca AC       		.byte	-84
+ 232 00cb 02       		.byte	2
+ 233 00cc AE       		.byte	-82
+ 234 00cd 0C       		.byte	12
+ 235 00ce B0       		.byte	-80
+ 236 00cf 0E       		.byte	14
+ 237 00d0 B3       		.byte	-77
+ 238 00d1 01       		.byte	1
+ 239 00d2 B5       		.byte	-75
+ 240 00d3 02       		.byte	2
+ 241 00d4 B6       		.byte	-74
+ 242 00d5 01       		.byte	1
+ 243 00d6 B7       		.byte	-73
+ 244 00d7 04       		.byte	4
+ 245 00d8 D4       		.byte	-44
+ 246 00d9 18       		.byte	24
+ 247 00da D6       		.byte	-42
+ 248 00db 04       		.byte	4
+ 249 00dc D8       		.byte	-40
+ 250 00dd 04       		.byte	4
+ 251 00de D9       		.byte	-39
+ 252 00df 04       		.byte	4
+ 253 00e0 DB       		.byte	-37
+ 254 00e1 04       		.byte	4
+ 255 00e2 DC       		.byte	-36
+ 256 00e3 10       		.byte	16
+ 257 00e4 DF       		.byte	-33
+ 258 00e5 01       		.byte	1
+ 259 00e6 00       		.byte	0
+ 260 00e7 04       		.byte	4
+ 261 00e8 04       		.byte	4
+ 262 00e9 28       		.byte	40
+ 263 00ea 09       		.byte	9
+ 264 00eb 08       		.byte	8
+ 265 00ec 0A       		.byte	10
+ 266 00ed 40       		.byte	64
+ 267 00ee 0F       		.byte	15
+ 268 00ef 02       		.byte	2
+ 269 00f0 10       		.byte	16
+ 270 00f1 30       		.byte	48
+ 271 00f2 12       		.byte	18
+ 272 00f3 0A       		.byte	10
+ 273 00f4 15       		.byte	21
+ 274 00f5 40       		.byte	64
+ 275 00f6 17       		.byte	23
+ 276 00f7 10       		.byte	16
+ 277 00f8 19       		.byte	25
+ 278 00f9 80       		.byte	-128
+ 279 00fa 1B       		.byte	27
+ 280 00fb 02       		.byte	2
+ 281 00fc 1C       		.byte	28
+ 282 00fd 80       		.byte	-128
+ 283 00fe 1D       		.byte	29
+ 284 00ff 40       		.byte	64
+ 285 0100 20       		.byte	32
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 6
+
+
+ 286 0101 02       		.byte	2
+ 287 0102 21       		.byte	33
+ 288 0103 80       		.byte	-128
+ 289 0104 22       		.byte	34
+ 290 0105 07       		.byte	7
+ 291 0106 27       		.byte	39
+ 292 0107 2A       		.byte	42
+ 293 0108 2A       		.byte	42
+ 294 0109 40       		.byte	64
+ 295 010a 2B       		.byte	43
+ 296 010b 08       		.byte	8
+ 297 010c 2E       		.byte	46
+ 298 010d 20       		.byte	32
+ 299 010e 31       		.byte	49
+ 300 010f 80       		.byte	-128
+ 301 0110 32       		.byte	50
+ 302 0111 29       		.byte	41
+ 303 0112 37       		.byte	55
+ 304 0113 28       		.byte	40
+ 305 0114 38       		.byte	56
+ 306 0115 94       		.byte	-108
+ 307 0116 40       		.byte	64
+ 308 0117 14       		.byte	20
+ 309 0118 41       		.byte	65
+ 310 0119 08       		.byte	8
+ 311 011a 48       		.byte	72
+ 312 011b 20       		.byte	32
+ 313 011c 49       		.byte	73
+ 314 011d 10       		.byte	16
+ 315 011e 4A       		.byte	74
+ 316 011f 08       		.byte	8
+ 317 0120 52       		.byte	82
+ 318 0121 40       		.byte	64
+ 319 0122 53       		.byte	83
+ 320 0123 08       		.byte	8
+ 321 0124 58       		.byte	88
+ 322 0125 12       		.byte	18
+ 323 0126 59       		.byte	89
+ 324 0127 80       		.byte	-128
+ 325 0128 5A       		.byte	90
+ 326 0129 08       		.byte	8
+ 327 012a 5E       		.byte	94
+ 328 012b 02       		.byte	2
+ 329 012c 64       		.byte	100
+ 330 012d 40       		.byte	64
+ 331 012e 67       		.byte	103
+ 332 012f 0A       		.byte	10
+ 333 0130 87       		.byte	-121
+ 334 0131 02       		.byte	2
+ 335 0132 C0       		.byte	-64
+ 336 0133 64       		.byte	100
+ 337 0134 C2       		.byte	-62
+ 338 0135 8C       		.byte	-116
+ 339 0136 C4       		.byte	-60
+ 340 0137 C7       		.byte	-57
+ 341 0138 CA       		.byte	-54
+ 342 0139 2C       		.byte	44
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 7
+
+
+ 343 013a CC       		.byte	-52
+ 344 013b 6F       		.byte	111
+ 345 013c CE       		.byte	-50
+ 346 013d 0E       		.byte	14
+ 347 013e D0       		.byte	-48
+ 348 013f 06       		.byte	6
+ 349 0140 D2       		.byte	-46
+ 350 0141 04       		.byte	4
+ 351 0142 D6       		.byte	-42
+ 352 0143 8F       		.byte	-113
+ 353 0144 D8       		.byte	-40
+ 354 0145 B0       		.byte	-80
+ 355 0146 02       		.byte	2
+ 356 0147 73       		.byte	115
+ 357 0148 04       		.byte	4
+ 358 0149 0F       		.byte	15
+ 359 014a 05       		.byte	5
+ 360 014b 10       		.byte	16
+ 361 014c 06       		.byte	6
+ 362 014d 70       		.byte	112
+ 363 014e 08       		.byte	8
+ 364 014f 04       		.byte	4
+ 365 0150 09       		.byte	9
+ 366 0151 10       		.byte	16
+ 367 0152 0C       		.byte	12
+ 368 0153 08       		.byte	8
+ 369 0154 0F       		.byte	15
+ 370 0155 04       		.byte	4
+ 371 0156 13       		.byte	19
+ 372 0157 10       		.byte	16
+ 373 0158 14       		.byte	20
+ 374 0159 7F       		.byte	127
+ 375 015a 17       		.byte	23
+ 376 015b 10       		.byte	16
+ 377 015c 18       		.byte	24
+ 378 015d 73       		.byte	115
+ 379 015e 19       		.byte	25
+ 380 015f 02       		.byte	2
+ 381 0160 1A       		.byte	26
+ 382 0161 0C       		.byte	12
+ 383 0162 1B       		.byte	27
+ 384 0163 09       		.byte	9
+ 385 0164 1C       		.byte	28
+ 386 0165 11       		.byte	17
+ 387 0166 20       		.byte	32
+ 388 0167 0C       		.byte	12
+ 389 0168 22       		.byte	34
+ 390 0169 73       		.byte	115
+ 391 016a 24       		.byte	36
+ 392 016b 0C       		.byte	12
+ 393 016c 25       		.byte	37
+ 394 016d 01       		.byte	1
+ 395 016e 27       		.byte	39
+ 396 016f 0A       		.byte	10
+ 397 0170 28       		.byte	40
+ 398 0171 22       		.byte	34
+ 399 0172 29       		.byte	41
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 8
+
+
+ 400 0173 03       		.byte	3
+ 401 0174 2C       		.byte	44
+ 402 0175 33       		.byte	51
+ 403 0176 2D       		.byte	45
+ 404 0177 03       		.byte	3
+ 405 0178 31       		.byte	49
+ 406 0179 0C       		.byte	12
+ 407 017a 32       		.byte	50
+ 408 017b 4C       		.byte	76
+ 409 017c 33       		.byte	51
+ 410 017d 03       		.byte	3
+ 411 017e 34       		.byte	52
+ 412 017f 0F       		.byte	15
+ 413 0180 35       		.byte	53
+ 414 0181 10       		.byte	16
+ 415 0182 36       		.byte	54
+ 416 0183 30       		.byte	48
+ 417 0184 39       		.byte	57
+ 418 0185 20       		.byte	32
+ 419 0186 3A       		.byte	58
+ 420 0187 2A       		.byte	42
+ 421 0188 3F       		.byte	63
+ 422 0189 01       		.byte	1
+ 423 018a 40       		.byte	64
+ 424 018b 24       		.byte	36
+ 425 018c 41       		.byte	65
+ 426 018d 06       		.byte	6
+ 427 018e 42       		.byte	66
+ 428 018f 05       		.byte	5
+ 429 0190 44       		.byte	68
+ 430 0191 01       		.byte	1
+ 431 0192 45       		.byte	69
+ 432 0193 C0       		.byte	-64
+ 433 0194 47       		.byte	71
+ 434 0195 E0       		.byte	-32
+ 435 0196 48       		.byte	72
+ 436 0197 22       		.byte	34
+ 437 0198 49       		.byte	73
+ 438 0199 FF       		.byte	-1
+ 439 019a 4A       		.byte	74
+ 440 019b FF       		.byte	-1
+ 441 019c 4B       		.byte	75
+ 442 019d FF       		.byte	-1
+ 443 019e 4C       		.byte	76
+ 444 019f 62       		.byte	98
+ 445 01a0 4D       		.byte	77
+ 446 01a1 A0       		.byte	-96
+ 447 01a2 4E       		.byte	78
+ 448 01a3 F0       		.byte	-16
+ 449 01a4 4F       		.byte	79
+ 450 01a5 41       		.byte	65
+ 451 01a6 50       		.byte	80
+ 452 01a7 0C       		.byte	12
+ 453 01a8 58       		.byte	88
+ 454 01a9 04       		.byte	4
+ 455 01aa 59       		.byte	89
+ 456 01ab 04       		.byte	4
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 9
+
+
+ 457 01ac 5A       		.byte	90
+ 458 01ad 04       		.byte	4
+ 459 01ae 5F       		.byte	95
+ 460 01af 01       		.byte	1
+ 461 01b0 66       		.byte	102
+ 462 01b1 40       		.byte	64
+ 463 01b2 67       		.byte	103
+ 464 01b3 02       		.byte	2
+ 465 01b4 69       		.byte	105
+ 466 01b5 10       		.byte	16
+ 467 01b6 6A       		.byte	106
+ 468 01b7 30       		.byte	48
+ 469 01b8 6B       		.byte	107
+ 470 01b9 10       		.byte	16
+ 471 01ba 6D       		.byte	109
+ 472 01bb 10       		.byte	16
+ 473 01bc 6E       		.byte	110
+ 474 01bd 10       		.byte	16
+ 475 01be 6F       		.byte	111
+ 476 01bf 12       		.byte	18
+ 477 01c0 82       		.byte	-126
+ 478 01c1 0C       		.byte	12
+ 479 01c2 84       		.byte	-124
+ 480 01c3 01       		.byte	1
+ 481 01c4 85       		.byte	-123
+ 482 01c5 03       		.byte	3
+ 483 01c6 86       		.byte	-122
+ 484 01c7 06       		.byte	6
+ 485 01c8 87       		.byte	-121
+ 486 01c9 0C       		.byte	12
+ 487 01ca 8D       		.byte	-115
+ 488 01cb 0A       		.byte	10
+ 489 01cc 8F       		.byte	-113
+ 490 01cd 04       		.byte	4
+ 491 01ce 90       		.byte	-112
+ 492 01cf 0C       		.byte	12
+ 493 01d0 92       		.byte	-110
+ 494 01d1 03       		.byte	3
+ 495 01d2 96       		.byte	-106
+ 496 01d3 03       		.byte	3
+ 497 01d4 97       		.byte	-105
+ 498 01d5 05       		.byte	5
+ 499 01d6 99       		.byte	-103
+ 500 01d7 03       		.byte	3
+ 501 01d8 9B       		.byte	-101
+ 502 01d9 04       		.byte	4
+ 503 01da 9F       		.byte	-97
+ 504 01db 08       		.byte	8
+ 505 01dc A6       		.byte	-90
+ 506 01dd 08       		.byte	8
+ 507 01de A8       		.byte	-88
+ 508 01df 01       		.byte	1
+ 509 01e0 A9       		.byte	-87
+ 510 01e1 03       		.byte	3
+ 511 01e2 AA       		.byte	-86
+ 512 01e3 0E       		.byte	14
+ 513 01e4 AB       		.byte	-85
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 10
+
+
+ 514 01e5 04       		.byte	4
+ 515 01e6 B0       		.byte	-80
+ 516 01e7 0F       		.byte	15
+ 517 01e8 B5       		.byte	-75
+ 518 01e9 0F       		.byte	15
+ 519 01ea BA       		.byte	-70
+ 520 01eb 02       		.byte	2
+ 521 01ec BB       		.byte	-69
+ 522 01ed 20       		.byte	32
+ 523 01ee D8       		.byte	-40
+ 524 01ef 04       		.byte	4
+ 525 01f0 D9       		.byte	-39
+ 526 01f1 04       		.byte	4
+ 527 01f2 DF       		.byte	-33
+ 528 01f3 01       		.byte	1
+ 529 01f4 00       		.byte	0
+ 530 01f5 06       		.byte	6
+ 531 01f6 02       		.byte	2
+ 532 01f7 80       		.byte	-128
+ 533 01f8 05       		.byte	5
+ 534 01f9 04       		.byte	4
+ 535 01fa 06       		.byte	6
+ 536 01fb 41       		.byte	65
+ 537 01fc 07       		.byte	7
+ 538 01fd 04       		.byte	4
+ 539 01fe 09       		.byte	9
+ 540 01ff 08       		.byte	8
+ 541 0200 0A       		.byte	10
+ 542 0201 40       		.byte	64
+ 543 0202 0E       		.byte	14
+ 544 0203 04       		.byte	4
+ 545 0204 0F       		.byte	15
+ 546 0205 12       		.byte	18
+ 547 0206 10       		.byte	16
+ 548 0207 04       		.byte	4
+ 549 0208 12       		.byte	18
+ 550 0209 20       		.byte	32
+ 551 020a 14       		.byte	20
+ 552 020b 40       		.byte	64
+ 553 020c 15       		.byte	21
+ 554 020d 40       		.byte	64
+ 555 020e 16       		.byte	22
+ 556 020f 10       		.byte	16
+ 557 0210 17       		.byte	23
+ 558 0211 10       		.byte	16
+ 559 0212 18       		.byte	24
+ 560 0213 80       		.byte	-128
+ 561 0214 1A       		.byte	26
+ 562 0215 40       		.byte	64
+ 563 0216 1C       		.byte	28
+ 564 0217 40       		.byte	64
+ 565 0218 1D       		.byte	29
+ 566 0219 24       		.byte	36
+ 567 021a 1E       		.byte	30
+ 568 021b 06       		.byte	6
+ 569 021c 1F       		.byte	31
+ 570 021d 02       		.byte	2
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 11
+
+
+ 571 021e 20       		.byte	32
+ 572 021f 04       		.byte	4
+ 573 0220 26       		.byte	38
+ 574 0221 10       		.byte	16
+ 575 0222 27       		.byte	39
+ 576 0223 50       		.byte	80
+ 577 0224 28       		.byte	40
+ 578 0225 04       		.byte	4
+ 579 0226 29       		.byte	41
+ 580 0227 10       		.byte	16
+ 581 0228 2C       		.byte	44
+ 582 0229 02       		.byte	2
+ 583 022a 2F       		.byte	47
+ 584 022b 28       		.byte	40
+ 585 022c 30       		.byte	48
+ 586 022d 20       		.byte	32
+ 587 022e 31       		.byte	49
+ 588 022f 08       		.byte	8
+ 589 0230 32       		.byte	50
+ 590 0231 80       		.byte	-128
+ 591 0232 34       		.byte	52
+ 592 0233 0A       		.byte	10
+ 593 0234 37       		.byte	55
+ 594 0235 18       		.byte	24
+ 595 0236 38       		.byte	56
+ 596 0237 84       		.byte	-124
+ 597 0238 3C       		.byte	60
+ 598 0239 80       		.byte	-128
+ 599 023a 3D       		.byte	61
+ 600 023b 40       		.byte	64
+ 601 023c 3E       		.byte	62
+ 602 023d 04       		.byte	4
+ 603 023e 3F       		.byte	63
+ 604 023f 10       		.byte	16
+ 605 0240 45       		.byte	69
+ 606 0241 20       		.byte	32
+ 607 0242 46       		.byte	70
+ 608 0243 40       		.byte	64
+ 609 0244 47       		.byte	71
+ 610 0245 42       		.byte	66
+ 611 0246 4C       		.byte	76
+ 612 0247 01       		.byte	1
+ 613 0248 4F       		.byte	79
+ 614 0249 11       		.byte	17
+ 615 024a 55       		.byte	85
+ 616 024b 02       		.byte	2
+ 617 024c 80       		.byte	-128
+ 618 024d 12       		.byte	18
+ 619 024e 86       		.byte	-122
+ 620 024f 20       		.byte	32
+ 621 0250 88       		.byte	-120
+ 622 0251 48       		.byte	72
+ 623 0252 94       		.byte	-108
+ 624 0253 AC       		.byte	-84
+ 625 0254 95       		.byte	-107
+ 626 0255 40       		.byte	64
+ 627 0256 96       		.byte	-106
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 12
+
+
+ 628 0257 40       		.byte	64
+ 629 0258 97       		.byte	-105
+ 630 0259 0A       		.byte	10
+ 631 025a 99       		.byte	-103
+ 632 025b 40       		.byte	64
+ 633 025c 9D       		.byte	-99
+ 634 025d 10       		.byte	16
+ 635 025e 9E       		.byte	-98
+ 636 025f 20       		.byte	32
+ 637 0260 9F       		.byte	-97
+ 638 0261 10       		.byte	16
+ 639 0262 A0       		.byte	-96
+ 640 0263 61       		.byte	97
+ 641 0264 A5       		.byte	-91
+ 642 0265 08       		.byte	8
+ 643 0266 A6       		.byte	-90
+ 644 0267 21       		.byte	33
+ 645 0268 A7       		.byte	-89
+ 646 0269 01       		.byte	1
+ 647 026a AB       		.byte	-85
+ 648 026b 02       		.byte	2
+ 649 026c B0       		.byte	-80
+ 650 026d 42       		.byte	66
+ 651 026e B3       		.byte	-77
+ 652 026f 08       		.byte	8
+ 653 0270 C0       		.byte	-64
+ 654 0271 FC       		.byte	-4
+ 655 0272 C2       		.byte	-62
+ 656 0273 EC       		.byte	-20
+ 657 0274 C4       		.byte	-60
+ 658 0275 F6       		.byte	-10
+ 659 0276 CA       		.byte	-54
+ 660 0277 74       		.byte	116
+ 661 0278 CC       		.byte	-52
+ 662 0279 EE       		.byte	-18
+ 663 027a CE       		.byte	-50
+ 664 027b 7A       		.byte	122
+ 665 027c D0       		.byte	-48
+ 666 027d B0       		.byte	-80
+ 667 027e D2       		.byte	-46
+ 668 027f 30       		.byte	48
+ 669 0280 EA       		.byte	-22
+ 670 0281 80       		.byte	-128
+ 671 0282 02       		.byte	2
+ 672 0283 06       		.byte	6
+ 673 0284 05       		.byte	5
+ 674 0285 03       		.byte	3
+ 675 0286 06       		.byte	6
+ 676 0287 05       		.byte	5
+ 677 0288 0D       		.byte	13
+ 678 0289 02       		.byte	2
+ 679 028a 10       		.byte	16
+ 680 028b 06       		.byte	6
+ 681 028c 12       		.byte	18
+ 682 028d 01       		.byte	1
+ 683 028e 1A       		.byte	26
+ 684 028f 02       		.byte	2
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 13
+
+
+ 685 0290 1B       		.byte	27
+ 686 0291 01       		.byte	1
+ 687 0292 26       		.byte	38
+ 688 0293 01       		.byte	1
+ 689 0294 29       		.byte	41
+ 690 0295 03       		.byte	3
+ 691 0296 2A       		.byte	42
+ 692 0297 03       		.byte	3
+ 693 0298 31       		.byte	49
+ 694 0299 03       		.byte	3
+ 695 029a 34       		.byte	52
+ 696 029b 07       		.byte	7
+ 697 029c 39       		.byte	57
+ 698 029d 02       		.byte	2
+ 699 029e 3A       		.byte	58
+ 700 029f 20       		.byte	32
+ 701 02a0 3F       		.byte	63
+ 702 02a1 01       		.byte	1
+ 703 02a2 40       		.byte	64
+ 704 02a3 04       		.byte	4
+ 705 02a4 46       		.byte	70
+ 706 02a5 40       		.byte	64
+ 707 02a6 49       		.byte	73
+ 708 02a7 FF       		.byte	-1
+ 709 02a8 4A       		.byte	74
+ 710 02a9 07       		.byte	7
+ 711 02aa 4B       		.byte	75
+ 712 02ab FF       		.byte	-1
+ 713 02ac 4C       		.byte	76
+ 714 02ad 40       		.byte	64
+ 715 02ae 4D       		.byte	77
+ 716 02af 20       		.byte	32
+ 717 02b0 4E       		.byte	78
+ 718 02b1 F0       		.byte	-16
+ 719 02b2 4F       		.byte	79
+ 720 02b3 05       		.byte	5
+ 721 02b4 50       		.byte	80
+ 722 02b5 08       		.byte	8
+ 723 02b6 58       		.byte	88
+ 724 02b7 04       		.byte	4
+ 725 02b8 59       		.byte	89
+ 726 02b9 04       		.byte	4
+ 727 02ba 5A       		.byte	90
+ 728 02bb 04       		.byte	4
+ 729 02bc 5F       		.byte	95
+ 730 02bd 01       		.byte	1
+ 731 02be 60       		.byte	96
+ 732 02bf 40       		.byte	64
+ 733 02c0 61       		.byte	97
+ 734 02c1 A8       		.byte	-88
+ 735 02c2 62       		.byte	98
+ 736 02c3 40       		.byte	64
+ 737 02c4 63       		.byte	99
+ 738 02c5 20       		.byte	32
+ 739 02c6 82       		.byte	-126
+ 740 02c7 04       		.byte	4
+ 741 02c8 84       		.byte	-124
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 14
+
+
+ 742 02c9 01       		.byte	1
+ 743 02ca 85       		.byte	-123
+ 744 02cb 08       		.byte	8
+ 745 02cc 88       		.byte	-120
+ 746 02cd 01       		.byte	1
+ 747 02ce 8C       		.byte	-116
+ 748 02cf 01       		.byte	1
+ 749 02d0 8D       		.byte	-115
+ 750 02d1 10       		.byte	16
+ 751 02d2 91       		.byte	-111
+ 752 02d3 1C       		.byte	28
+ 753 02d4 92       		.byte	-110
+ 754 02d5 02       		.byte	2
+ 755 02d6 93       		.byte	-109
+ 756 02d7 21       		.byte	33
+ 757 02d8 95       		.byte	-107
+ 758 02d9 3C       		.byte	60
+ 759 02da 96       		.byte	-106
+ 760 02db 02       		.byte	2
+ 761 02dc 97       		.byte	-105
+ 762 02dd 02       		.byte	2
+ 763 02de 98       		.byte	-104
+ 764 02df 01       		.byte	1
+ 765 02e0 99       		.byte	-103
+ 766 02e1 27       		.byte	39
+ 767 02e2 9B       		.byte	-101
+ 768 02e3 18       		.byte	24
+ 769 02e4 9E       		.byte	-98
+ 770 02e5 04       		.byte	4
+ 771 02e6 9F       		.byte	-97
+ 772 02e7 04       		.byte	4
+ 773 02e8 A0       		.byte	-96
+ 774 02e9 08       		.byte	8
+ 775 02ea A3       		.byte	-93
+ 776 02eb 23       		.byte	35
+ 777 02ec A4       		.byte	-92
+ 778 02ed 08       		.byte	8
+ 779 02ee A5       		.byte	-91
+ 780 02ef 04       		.byte	4
+ 781 02f0 A8       		.byte	-88
+ 782 02f1 08       		.byte	8
+ 783 02f2 A9       		.byte	-87
+ 784 02f3 18       		.byte	24
+ 785 02f4 AD       		.byte	-83
+ 786 02f5 3F       		.byte	63
+ 787 02f6 B0       		.byte	-80
+ 788 02f7 04       		.byte	4
+ 789 02f8 B2       		.byte	-78
+ 790 02f9 02       		.byte	2
+ 791 02fa B4       		.byte	-76
+ 792 02fb 01       		.byte	1
+ 793 02fc B5       		.byte	-75
+ 794 02fd 1F       		.byte	31
+ 795 02fe B6       		.byte	-74
+ 796 02ff 08       		.byte	8
+ 797 0300 B7       		.byte	-73
+ 798 0301 38       		.byte	56
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 15
+
+
+ 799 0302 BB       		.byte	-69
+ 800 0303 20       		.byte	32
+ 801 0304 BE       		.byte	-66
+ 802 0305 15       		.byte	21
+ 803 0306 D6       		.byte	-42
+ 804 0307 02       		.byte	2
+ 805 0308 D7       		.byte	-41
+ 806 0309 12       		.byte	18
+ 807 030a D8       		.byte	-40
+ 808 030b 04       		.byte	4
+ 809 030c D9       		.byte	-39
+ 810 030d 04       		.byte	4
+ 811 030e DB       		.byte	-37
+ 812 030f 04       		.byte	4
+ 813 0310 DF       		.byte	-33
+ 814 0311 01       		.byte	1
+ 815 0312 00       		.byte	0
+ 816 0313 06       		.byte	6
+ 817 0314 04       		.byte	4
+ 818 0315 42       		.byte	66
+ 819 0316 05       		.byte	5
+ 820 0317 04       		.byte	4
+ 821 0318 07       		.byte	7
+ 822 0319 08       		.byte	8
+ 823 031a 09       		.byte	9
+ 824 031b 20       		.byte	32
+ 825 031c 0A       		.byte	10
+ 826 031d 40       		.byte	64
+ 827 031e 0C       		.byte	12
+ 828 031f 10       		.byte	16
+ 829 0320 0D       		.byte	13
+ 830 0321 02       		.byte	2
+ 831 0322 0E       		.byte	14
+ 832 0323 24       		.byte	36
+ 833 0324 0F       		.byte	15
+ 834 0325 01       		.byte	1
+ 835 0326 10       		.byte	16
+ 836 0327 24       		.byte	36
+ 837 0328 15       		.byte	21
+ 838 0329 14       		.byte	20
+ 839 032a 17       		.byte	23
+ 840 032b 01       		.byte	1
+ 841 032c 19       		.byte	25
+ 842 032d 10       		.byte	16
+ 843 032e 1E       		.byte	30
+ 844 032f 0A       		.byte	10
+ 845 0330 1F       		.byte	31
+ 846 0331 45       		.byte	69
+ 847 0332 21       		.byte	33
+ 848 0333 01       		.byte	1
+ 849 0334 24       		.byte	36
+ 850 0335 02       		.byte	2
+ 851 0336 27       		.byte	39
+ 852 0337 08       		.byte	8
+ 853 0338 28       		.byte	40
+ 854 0339 04       		.byte	4
+ 855 033a 29       		.byte	41
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 16
+
+
+ 856 033b 10       		.byte	16
+ 857 033c 2E       		.byte	46
+ 858 033d 20       		.byte	32
+ 859 033e 2F       		.byte	47
+ 860 033f 62       		.byte	98
+ 861 0340 30       		.byte	48
+ 862 0341 20       		.byte	32
+ 863 0342 34       		.byte	52
+ 864 0343 12       		.byte	18
+ 865 0344 35       		.byte	53
+ 866 0345 40       		.byte	64
+ 867 0346 37       		.byte	55
+ 868 0347 08       		.byte	8
+ 869 0348 38       		.byte	56
+ 870 0349 84       		.byte	-124
+ 871 034a 3C       		.byte	60
+ 872 034b 80       		.byte	-128
+ 873 034c 3E       		.byte	62
+ 874 034d 08       		.byte	8
+ 875 034e 41       		.byte	65
+ 876 034f 01       		.byte	1
+ 877 0350 48       		.byte	72
+ 878 0351 20       		.byte	32
+ 879 0352 51       		.byte	81
+ 880 0353 20       		.byte	32
+ 881 0354 52       		.byte	82
+ 882 0355 20       		.byte	32
+ 883 0356 5E       		.byte	94
+ 884 0357 0A       		.byte	10
+ 885 0358 5F       		.byte	95
+ 886 0359 02       		.byte	2
+ 887 035a 6C       		.byte	108
+ 888 035b 14       		.byte	20
+ 889 035c 6D       		.byte	109
+ 890 035d 14       		.byte	20
+ 891 035e 6F       		.byte	111
+ 892 035f 09       		.byte	9
+ 893 0360 74       		.byte	116
+ 894 0361 40       		.byte	64
+ 895 0362 76       		.byte	118
+ 896 0363 39       		.byte	57
+ 897 0364 77       		.byte	119
+ 898 0365 04       		.byte	4
+ 899 0366 80       		.byte	-128
+ 900 0367 22       		.byte	34
+ 901 0368 81       		.byte	-127
+ 902 0369 0C       		.byte	12
+ 903 036a 90       		.byte	-112
+ 904 036b C4       		.byte	-60
+ 905 036c 92       		.byte	-110
+ 906 036d 44       		.byte	68
+ 907 036e 93       		.byte	-109
+ 908 036f 01       		.byte	1
+ 909 0370 94       		.byte	-108
+ 910 0371 2A       		.byte	42
+ 911 0372 97       		.byte	-105
+ 912 0373 0A       		.byte	10
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 17
+
+
+ 913 0374 99       		.byte	-103
+ 914 0375 44       		.byte	68
+ 915 0376 9C       		.byte	-100
+ 916 0377 02       		.byte	2
+ 917 0378 9D       		.byte	-99
+ 918 0379 10       		.byte	16
+ 919 037a 9E       		.byte	-98
+ 920 037b 11       		.byte	17
+ 921 037c 9F       		.byte	-97
+ 922 037d 0E       		.byte	14
+ 923 037e A0       		.byte	-96
+ 924 037f 01       		.byte	1
+ 925 0380 A1       		.byte	-95
+ 926 0381 02       		.byte	2
+ 927 0382 A2       		.byte	-94
+ 928 0383 10       		.byte	16
+ 929 0384 A3       		.byte	-93
+ 930 0385 22       		.byte	34
+ 931 0386 A5       		.byte	-91
+ 932 0387 08       		.byte	8
+ 933 0388 A6       		.byte	-90
+ 934 0389 20       		.byte	32
+ 935 038a A7       		.byte	-89
+ 936 038b 08       		.byte	8
+ 937 038c AF       		.byte	-81
+ 938 038d 33       		.byte	51
+ 939 038e C0       		.byte	-64
+ 940 038f FC       		.byte	-4
+ 941 0390 C2       		.byte	-62
+ 942 0391 FA       		.byte	-6
+ 943 0392 C4       		.byte	-60
+ 944 0393 76       		.byte	118
+ 945 0394 CA       		.byte	-54
+ 946 0395 F4       		.byte	-12
+ 947 0396 CC       		.byte	-52
+ 948 0397 F4       		.byte	-12
+ 949 0398 CE       		.byte	-50
+ 950 0399 5A       		.byte	90
+ 951 039a D0       		.byte	-48
+ 952 039b 01       		.byte	1
+ 953 039c D6       		.byte	-42
+ 954 039d 40       		.byte	64
+ 955 039e E2       		.byte	-30
+ 956 039f 08       		.byte	8
+ 957 03a0 B9       		.byte	-71
+ 958 03a1 20       		.byte	32
+ 959 03a2 BF       		.byte	-65
+ 960 03a3 10       		.byte	16
+ 961 03a4 D9       		.byte	-39
+ 962 03a5 04       		.byte	4
+ 963 03a6 DF       		.byte	-33
+ 964 03a7 01       		.byte	1
+ 965 03a8 23       		.byte	35
+ 966 03a9 08       		.byte	8
+ 967 03aa 87       		.byte	-121
+ 968 03ab 08       		.byte	8
+ 969 03ac 33       		.byte	51
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 18
+
+
+ 970 03ad 40       		.byte	64
+ 971 03ae 36       		.byte	54
+ 972 03af 10       		.byte	16
+ 973 03b0 67       		.byte	103
+ 974 03b1 80       		.byte	-128
+ 975 03b2 87       		.byte	-121
+ 976 03b3 40       		.byte	64
+ 977 03b4 CC       		.byte	-52
+ 978 03b5 30       		.byte	48
+ 979 03b6 D8       		.byte	-40
+ 980 03b7 80       		.byte	-128
+ 981 03b8 E2       		.byte	-30
+ 982 03b9 10       		.byte	16
+ 983 03ba 02       		.byte	2
+ 984 03bb 08       		.byte	8
+ 985 03bc 03       		.byte	3
+ 986 03bd 80       		.byte	-128
+ 987 03be 86       		.byte	-122
+ 988 03bf 08       		.byte	8
+ 989 03c0 AB       		.byte	-85
+ 990 03c1 40       		.byte	64
+ 991 03c2 B2       		.byte	-78
+ 992 03c3 10       		.byte	16
+ 993 03c4 C0       		.byte	-64
+ 994 03c5 50       		.byte	80
+ 995 03c6 E0       		.byte	-32
+ 996 03c7 10       		.byte	16
+ 997 03c8 EE       		.byte	-18
+ 998 03c9 80       		.byte	-128
+ 999 03ca AF       		.byte	-81
+ 1000 03cb 80       		.byte	-128
+ 1001 03cc EC       		.byte	-20
+ 1002 03cd 10       		.byte	16
+ 1003 03ce 67       		.byte	103
+ 1004 03cf 80       		.byte	-128
+ 1005 03d0 87       		.byte	-121
+ 1006 03d1 40       		.byte	64
+ 1007 03d2 D8       		.byte	-40
+ 1008 03d3 80       		.byte	-128
+ 1009 03d4 E2       		.byte	-30
+ 1010 03d5 10       		.byte	16
+ 1011 03d6 00       		.byte	0
+ 1012 03d7 03       		.byte	3
+ 1013 03d8 08       		.byte	8
+ 1014 03d9 03       		.byte	3
+ 1015 03da 0A       		.byte	10
+ 1016 03db 01       		.byte	1
+ 1017 03dc 00       		.byte	0
+ 1018 03dd 0F       		.byte	15
+ 1019 03de 00       		.byte	0
+ 1020 03df 00       		.byte	0
+ 1021 03e0 05       		.byte	5
+ 1022 03e1 6A       		.byte	106
+ 1023 03e2 6A       		.byte	106
+ 1024 03e3 00       		.byte	0
+ 1025 03e4 00       		.byte	0
+ 1026 03e5 00       		.byte	0
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 19
+
+
+ 1027 03e6 00       		.byte	0
+ 1028 03e7 00       		.byte	0
+ 1029 03e8 00       		.byte	0
+ 1030 03e9 0B       		.byte	11
+ 1031 03ea 0B       		.byte	11
+ 1032 03eb 00       		.byte	0
+ 1033 03ec 00       		.byte	0
+ 1034 03ed 00       		.byte	0
+ 1035 03ee 00       		.byte	0
+ 1036 03ef 00       		.byte	0
+ 1037 03f0 40       		.byte	64
+ 1038 03f1 00       		.byte	0
+ 1039 03f2 00       		.byte	0
+ 1040 03f3 40       		.byte	64
+ 1041 03f4 40       		.byte	64
+ 1042 03f5 00       		.byte	0
+ 1043 03f6 40       		.byte	64
+ 1044 03f7 00       		.byte	0
+ 1045 03f8 00       		.byte	0
+ 1046 03f9 00       		.byte	0
+ 1047 03fa 00       		.byte	0
+ 1048 03fb 00       		.byte	0
+ 1049              		.section	.cywolatch,"a",%progbits
+ 1050              		.align	2
+ 1051              		.type	cy_meta_wonvl, %object
+ 1052              		.size	cy_meta_wonvl, 4
+ 1053              	cy_meta_wonvl:
+ 1054 0000 BC       		.byte	-68
+ 1055 0001 90       		.byte	-112
+ 1056 0002 AC       		.byte	-84
+ 1057 0003 AF       		.byte	-81
+ 1058              		.section	.cycustnvl,"a",%progbits
+ 1059              		.align	2
+ 1060              		.type	cy_meta_custnvl, %object
+ 1061              		.size	cy_meta_custnvl, 4
+ 1062              	cy_meta_custnvl:
+ 1063 0000 00       		.byte	0
+ 1064 0001 00       		.byte	0
+ 1065 0002 40       		.byte	64
+ 1066 0003 05       		.byte	5
+ 1067              		.section	.cymeta,"a",%progbits
+ 1068              		.align	2
+ 1069              		.type	cy_metadata, %object
+ 1070              		.size	cy_metadata, 12
+ 1071              	cy_metadata:
+ 1072 0000 00       		.byte	0
+ 1073 0001 01       		.byte	1
+ 1074 0002 2E       		.byte	46
+ 1075 0003 12       		.byte	18
+ 1076 0004 30       		.byte	48
+ 1077 0005 69       		.byte	105
+ 1078 0006 00       		.byte	0
+ 1079 0007 01       		.byte	1
+ 1080 0008 00       		.byte	0
+ 1081 0009 00       		.byte	0
+ 1082 000a 00       		.byte	0
+ 1083 000b 00       		.byte	0
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 20
+
+
+ 1084              		.section	.cyflashprotect,"a",%progbits
+ 1085              		.align	2
+ 1086              		.type	cy_meta_flashprotect, %object
+ 1087              		.size	cy_meta_flashprotect, 256
+ 1088              	cy_meta_flashprotect:
+ 1089 0000 00000000 		.space	256
+ 1089      00000000 
+ 1089      00000000 
+ 1089      00000000 
+ 1089      00000000 
+ 1090              		.text
+ 1091              	.Letext0:
+ 1092              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1093              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 1094              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 1095              		.section	.debug_info,"",%progbits
+ 1096              	.Ldebug_info0:
+ 1097 0000 31010000 		.4byte	0x131
+ 1098 0004 0400     		.2byte	0x4
+ 1099 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 1100 000a 04       		.byte	0x4
+ 1101 000b 01       		.uleb128 0x1
+ 1102 000c 24000000 		.4byte	.LASF17
+ 1103 0010 0C       		.byte	0xc
+ 1104 0011 CA010000 		.4byte	.LASF18
+ 1105 0015 F9000000 		.4byte	.LASF19
+ 1106 0019 00000000 		.4byte	.Ldebug_line0
+ 1107 001d 02       		.uleb128 0x2
+ 1108 001e 01       		.byte	0x1
+ 1109 001f 06       		.byte	0x6
+ 1110 0020 BE010000 		.4byte	.LASF0
+ 1111 0024 03       		.uleb128 0x3
+ 1112 0025 00000000 		.4byte	.LASF9
+ 1113 0029 01       		.byte	0x1
+ 1114 002a 1D       		.byte	0x1d
+ 1115 002b 2F000000 		.4byte	0x2f
+ 1116 002f 02       		.uleb128 0x2
+ 1117 0030 01       		.byte	0x1
+ 1118 0031 08       		.byte	0x8
+ 1119 0032 16000000 		.4byte	.LASF1
+ 1120 0036 02       		.uleb128 0x2
+ 1121 0037 02       		.byte	0x2
+ 1122 0038 05       		.byte	0x5
+ 1123 0039 AB010000 		.4byte	.LASF2
+ 1124 003d 02       		.uleb128 0x2
+ 1125 003e 02       		.byte	0x2
+ 1126 003f 07       		.byte	0x7
+ 1127 0040 C4000000 		.4byte	.LASF3
+ 1128 0044 02       		.uleb128 0x2
+ 1129 0045 04       		.byte	0x4
+ 1130 0046 05       		.byte	0x5
+ 1131 0047 B5010000 		.4byte	.LASF4
+ 1132 004b 02       		.uleb128 0x2
+ 1133 004c 04       		.byte	0x4
+ 1134 004d 07       		.byte	0x7
+ 1135 004e B2000000 		.4byte	.LASF5
+ 1136 0052 02       		.uleb128 0x2
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 21
+
+
+ 1137 0053 08       		.byte	0x8
+ 1138 0054 05       		.byte	0x5
+ 1139 0055 9D010000 		.4byte	.LASF6
+ 1140 0059 02       		.uleb128 0x2
+ 1141 005a 08       		.byte	0x8
+ 1142 005b 07       		.byte	0x7
+ 1143 005c 52010000 		.4byte	.LASF7
+ 1144 0060 04       		.uleb128 0x4
+ 1145 0061 04       		.byte	0x4
+ 1146 0062 05       		.byte	0x5
+ 1147 0063 696E7400 		.ascii	"int\000"
+ 1148 0067 02       		.uleb128 0x2
+ 1149 0068 04       		.byte	0x4
+ 1150 0069 07       		.byte	0x7
+ 1151 006a 45010000 		.4byte	.LASF8
+ 1152 006e 03       		.uleb128 0x3
+ 1153 006f 69010000 		.4byte	.LASF10
+ 1154 0073 02       		.byte	0x2
+ 1155 0074 18       		.byte	0x18
+ 1156 0075 24000000 		.4byte	0x24
+ 1157 0079 05       		.uleb128 0x5
+ 1158 007a 91000000 		.4byte	0x91
+ 1159 007e 8A000000 		.4byte	0x8a
+ 1160 0082 06       		.uleb128 0x6
+ 1161 0083 8A000000 		.4byte	0x8a
+ 1162 0087 FB03     		.2byte	0x3fb
+ 1163 0089 00       		.byte	0
+ 1164 008a 02       		.uleb128 0x2
+ 1165 008b 04       		.byte	0x4
+ 1166 008c 07       		.byte	0x7
+ 1167 008d 94010000 		.4byte	.LASF11
+ 1168 0091 07       		.uleb128 0x7
+ 1169 0092 6E000000 		.4byte	0x6e
+ 1170 0096 08       		.uleb128 0x8
+ 1171 0097 E7000000 		.4byte	.LASF12
+ 1172 009b 03       		.byte	0x3
+ 1173 009c 1F       		.byte	0x1f
+ 1174 009d A7000000 		.4byte	0xa7
+ 1175 00a1 05       		.uleb128 0x5
+ 1176 00a2 03       		.byte	0x3
+ 1177 00a3 00000000 		.4byte	cy_meta_configecc
+ 1178 00a7 07       		.uleb128 0x7
+ 1179 00a8 79000000 		.4byte	0x79
+ 1180 00ac 05       		.uleb128 0x5
+ 1181 00ad 91000000 		.4byte	0x91
+ 1182 00b1 BC000000 		.4byte	0xbc
+ 1183 00b5 09       		.uleb128 0x9
+ 1184 00b6 8A000000 		.4byte	0x8a
+ 1185 00ba 03       		.byte	0x3
+ 1186 00bb 00       		.byte	0
+ 1187 00bc 08       		.uleb128 0x8
+ 1188 00bd D7000000 		.4byte	.LASF13
+ 1189 00c1 03       		.byte	0x3
+ 1190 00c2 AC       		.byte	0xac
+ 1191 00c3 CD000000 		.4byte	0xcd
+ 1192 00c7 05       		.uleb128 0x5
+ 1193 00c8 03       		.byte	0x3
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 22
+
+
+ 1194 00c9 00000000 		.4byte	cy_meta_custnvl
+ 1195 00cd 07       		.uleb128 0x7
+ 1196 00ce AC000000 		.4byte	0xac
+ 1197 00d2 08       		.uleb128 0x8
+ 1198 00d3 86010000 		.4byte	.LASF14
+ 1199 00d7 03       		.byte	0x3
+ 1200 00d8 BA       		.byte	0xba
+ 1201 00d9 E3000000 		.4byte	0xe3
+ 1202 00dd 05       		.uleb128 0x5
+ 1203 00de 03       		.byte	0x3
+ 1204 00df 00000000 		.4byte	cy_meta_wonvl
+ 1205 00e3 07       		.uleb128 0x7
+ 1206 00e4 AC000000 		.4byte	0xac
+ 1207 00e8 05       		.uleb128 0x5
+ 1208 00e9 91000000 		.4byte	0x91
+ 1209 00ed F8000000 		.4byte	0xf8
+ 1210 00f1 09       		.uleb128 0x9
+ 1211 00f2 8A000000 		.4byte	0x8a
+ 1212 00f6 FF       		.byte	0xff
+ 1213 00f7 00       		.byte	0
+ 1214 00f8 08       		.uleb128 0x8
+ 1215 00f9 71010000 		.4byte	.LASF15
+ 1216 00fd 03       		.byte	0x3
+ 1217 00fe C8       		.byte	0xc8
+ 1218 00ff 09010000 		.4byte	0x109
+ 1219 0103 05       		.uleb128 0x5
+ 1220 0104 03       		.byte	0x3
+ 1221 0105 00000000 		.4byte	cy_meta_flashprotect
+ 1222 0109 07       		.uleb128 0x7
+ 1223 010a E8000000 		.4byte	0xe8
+ 1224 010e 05       		.uleb128 0x5
+ 1225 010f 91000000 		.4byte	0x91
+ 1226 0113 1E010000 		.4byte	0x11e
+ 1227 0117 09       		.uleb128 0x9
+ 1228 0118 8A000000 		.4byte	0x8a
+ 1229 011c 0B       		.byte	0xb
+ 1230 011d 00       		.byte	0
+ 1231 011e 08       		.uleb128 0x8
+ 1232 011f 0A000000 		.4byte	.LASF16
+ 1233 0123 03       		.byte	0x3
+ 1234 0124 F5       		.byte	0xf5
+ 1235 0125 2F010000 		.4byte	0x12f
+ 1236 0129 05       		.uleb128 0x5
+ 1237 012a 03       		.byte	0x3
+ 1238 012b 00000000 		.4byte	cy_metadata
+ 1239 012f 07       		.uleb128 0x7
+ 1240 0130 0E010000 		.4byte	0x10e
+ 1241 0134 00       		.byte	0
+ 1242              		.section	.debug_abbrev,"",%progbits
+ 1243              	.Ldebug_abbrev0:
+ 1244 0000 01       		.uleb128 0x1
+ 1245 0001 11       		.uleb128 0x11
+ 1246 0002 01       		.byte	0x1
+ 1247 0003 25       		.uleb128 0x25
+ 1248 0004 0E       		.uleb128 0xe
+ 1249 0005 13       		.uleb128 0x13
+ 1250 0006 0B       		.uleb128 0xb
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 23
+
+
+ 1251 0007 03       		.uleb128 0x3
+ 1252 0008 0E       		.uleb128 0xe
+ 1253 0009 1B       		.uleb128 0x1b
+ 1254 000a 0E       		.uleb128 0xe
+ 1255 000b 10       		.uleb128 0x10
+ 1256 000c 17       		.uleb128 0x17
+ 1257 000d 00       		.byte	0
+ 1258 000e 00       		.byte	0
+ 1259 000f 02       		.uleb128 0x2
+ 1260 0010 24       		.uleb128 0x24
+ 1261 0011 00       		.byte	0
+ 1262 0012 0B       		.uleb128 0xb
+ 1263 0013 0B       		.uleb128 0xb
+ 1264 0014 3E       		.uleb128 0x3e
+ 1265 0015 0B       		.uleb128 0xb
+ 1266 0016 03       		.uleb128 0x3
+ 1267 0017 0E       		.uleb128 0xe
+ 1268 0018 00       		.byte	0
+ 1269 0019 00       		.byte	0
+ 1270 001a 03       		.uleb128 0x3
+ 1271 001b 16       		.uleb128 0x16
+ 1272 001c 00       		.byte	0
+ 1273 001d 03       		.uleb128 0x3
+ 1274 001e 0E       		.uleb128 0xe
+ 1275 001f 3A       		.uleb128 0x3a
+ 1276 0020 0B       		.uleb128 0xb
+ 1277 0021 3B       		.uleb128 0x3b
+ 1278 0022 0B       		.uleb128 0xb
+ 1279 0023 49       		.uleb128 0x49
+ 1280 0024 13       		.uleb128 0x13
+ 1281 0025 00       		.byte	0
+ 1282 0026 00       		.byte	0
+ 1283 0027 04       		.uleb128 0x4
+ 1284 0028 24       		.uleb128 0x24
+ 1285 0029 00       		.byte	0
+ 1286 002a 0B       		.uleb128 0xb
+ 1287 002b 0B       		.uleb128 0xb
+ 1288 002c 3E       		.uleb128 0x3e
+ 1289 002d 0B       		.uleb128 0xb
+ 1290 002e 03       		.uleb128 0x3
+ 1291 002f 08       		.uleb128 0x8
+ 1292 0030 00       		.byte	0
+ 1293 0031 00       		.byte	0
+ 1294 0032 05       		.uleb128 0x5
+ 1295 0033 01       		.uleb128 0x1
+ 1296 0034 01       		.byte	0x1
+ 1297 0035 49       		.uleb128 0x49
+ 1298 0036 13       		.uleb128 0x13
+ 1299 0037 01       		.uleb128 0x1
+ 1300 0038 13       		.uleb128 0x13
+ 1301 0039 00       		.byte	0
+ 1302 003a 00       		.byte	0
+ 1303 003b 06       		.uleb128 0x6
+ 1304 003c 21       		.uleb128 0x21
+ 1305 003d 00       		.byte	0
+ 1306 003e 49       		.uleb128 0x49
+ 1307 003f 13       		.uleb128 0x13
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 24
+
+
+ 1308 0040 2F       		.uleb128 0x2f
+ 1309 0041 05       		.uleb128 0x5
+ 1310 0042 00       		.byte	0
+ 1311 0043 00       		.byte	0
+ 1312 0044 07       		.uleb128 0x7
+ 1313 0045 26       		.uleb128 0x26
+ 1314 0046 00       		.byte	0
+ 1315 0047 49       		.uleb128 0x49
+ 1316 0048 13       		.uleb128 0x13
+ 1317 0049 00       		.byte	0
+ 1318 004a 00       		.byte	0
+ 1319 004b 08       		.uleb128 0x8
+ 1320 004c 34       		.uleb128 0x34
+ 1321 004d 00       		.byte	0
+ 1322 004e 03       		.uleb128 0x3
+ 1323 004f 0E       		.uleb128 0xe
+ 1324 0050 3A       		.uleb128 0x3a
+ 1325 0051 0B       		.uleb128 0xb
+ 1326 0052 3B       		.uleb128 0x3b
+ 1327 0053 0B       		.uleb128 0xb
+ 1328 0054 49       		.uleb128 0x49
+ 1329 0055 13       		.uleb128 0x13
+ 1330 0056 3F       		.uleb128 0x3f
+ 1331 0057 19       		.uleb128 0x19
+ 1332 0058 02       		.uleb128 0x2
+ 1333 0059 18       		.uleb128 0x18
+ 1334 005a 00       		.byte	0
+ 1335 005b 00       		.byte	0
+ 1336 005c 09       		.uleb128 0x9
+ 1337 005d 21       		.uleb128 0x21
+ 1338 005e 00       		.byte	0
+ 1339 005f 49       		.uleb128 0x49
+ 1340 0060 13       		.uleb128 0x13
+ 1341 0061 2F       		.uleb128 0x2f
+ 1342 0062 0B       		.uleb128 0xb
+ 1343 0063 00       		.byte	0
+ 1344 0064 00       		.byte	0
+ 1345 0065 00       		.byte	0
+ 1346              		.section	.debug_aranges,"",%progbits
+ 1347 0000 14000000 		.4byte	0x14
+ 1348 0004 0200     		.2byte	0x2
+ 1349 0006 00000000 		.4byte	.Ldebug_info0
+ 1350 000a 04       		.byte	0x4
+ 1351 000b 00       		.byte	0
+ 1352 000c 0000     		.2byte	0
+ 1353 000e 0000     		.2byte	0
+ 1354 0010 00000000 		.4byte	0
+ 1355 0014 00000000 		.4byte	0
+ 1356              		.section	.debug_line,"",%progbits
+ 1357              	.Ldebug_line0:
+ 1358 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 1358      02003701 
+ 1358      00000201 
+ 1358      FB0E0D00 
+ 1358      01010101 
+ 1359              	.LASF9:
+ 1360 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 25
+
+
+ 1360      6E74385F 
+ 1360      7400
+ 1361              	.LASF16:
+ 1362 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 1362      65746164 
+ 1362      61746100 
+ 1363              	.LASF1:
+ 1364 0016 756E7369 		.ascii	"unsigned char\000"
+ 1364      676E6564 
+ 1364      20636861 
+ 1364      7200
+ 1365              	.LASF17:
+ 1366 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1366      43313120 
+ 1366      352E342E 
+ 1366      31203230 
+ 1366      31363036 
+ 1367 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1367      20726576 
+ 1367      6973696F 
+ 1367      6E203233 
+ 1367      37373135 
+ 1368 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1368      66756E63 
+ 1368      74696F6E 
+ 1368      2D736563 
+ 1368      74696F6E 
+ 1369              	.LASF5:
+ 1370 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1370      20756E73 
+ 1370      69676E65 
+ 1370      6420696E 
+ 1370      7400
+ 1371              	.LASF3:
+ 1372 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 1372      7420756E 
+ 1372      7369676E 
+ 1372      65642069 
+ 1372      6E7400
+ 1373              	.LASF13:
+ 1374 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 1374      6574615F 
+ 1374      63757374 
+ 1374      6E766C00 
+ 1375              	.LASF12:
+ 1376 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 1376      6574615F 
+ 1376      636F6E66 
+ 1376      69676563 
+ 1376      6300
+ 1377              	.LASF19:
+ 1378 00f9 433A5C55 		.ascii	"C:\\Users\\emili\\OneDrive\\Documentos\\PSoC Creato"
+ 1378      73657273 
+ 1378      5C656D69 
+ 1378      6C695C4F 
+ 1378      6E654472 
+ 1379 0127 725C5052 		.ascii	"r\\PROYECTO_EMB\\Design01.cydsn\000"
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 26
+
+
+ 1379      4F594543 
+ 1379      544F5F45 
+ 1379      4D425C44 
+ 1379      65736967 
+ 1380              	.LASF8:
+ 1381 0145 756E7369 		.ascii	"unsigned int\000"
+ 1381      676E6564 
+ 1381      20696E74 
+ 1381      00
+ 1382              	.LASF7:
+ 1383 0152 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1383      206C6F6E 
+ 1383      6720756E 
+ 1383      7369676E 
+ 1383      65642069 
+ 1384              	.LASF10:
+ 1385 0169 75696E74 		.ascii	"uint8_t\000"
+ 1385      385F7400 
+ 1386              	.LASF15:
+ 1387 0171 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 1387      6574615F 
+ 1387      666C6173 
+ 1387      6870726F 
+ 1387      74656374 
+ 1388              	.LASF14:
+ 1389 0186 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 1389      6574615F 
+ 1389      776F6E76 
+ 1389      6C00
+ 1390              	.LASF11:
+ 1391 0194 73697A65 		.ascii	"sizetype\000"
+ 1391      74797065 
+ 1391      00
+ 1392              	.LASF6:
+ 1393 019d 6C6F6E67 		.ascii	"long long int\000"
+ 1393      206C6F6E 
+ 1393      6720696E 
+ 1393      7400
+ 1394              	.LASF2:
+ 1395 01ab 73686F72 		.ascii	"short int\000"
+ 1395      7420696E 
+ 1395      7400
+ 1396              	.LASF4:
+ 1397 01b5 6C6F6E67 		.ascii	"long int\000"
+ 1397      20696E74 
+ 1397      00
+ 1398              	.LASF0:
+ 1399 01be 7369676E 		.ascii	"signed char\000"
+ 1399      65642063 
+ 1399      68617200 
+ 1400              	.LASF18:
+ 1401 01ca 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 1401      72617465 
+ 1401      645F536F 
+ 1401      75726365 
+ 1401      5C50536F 
+ 1402              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran
+ARM GAS  C:\Users\emili\AppData\Local\Temp\cceZhAw5.s 			page 27
+
+
