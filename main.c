@@ -97,9 +97,8 @@ void menu()
 
 int main(void)
 {
-    CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
+    CyGlobalIntEnable; // Activar interrupciones globales
+\
     IRQ_UART_StartEx(IRQ_UART);
 
     UART_Start();
