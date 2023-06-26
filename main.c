@@ -166,7 +166,7 @@ int main(void)
             distancia = getDistancia();
             luminosidad = getLuminosidad();
 
-            if (distancia < 2) {
+            if (distancia < (float)2) {
                 Activar_Engine1();
             } 
             else {
